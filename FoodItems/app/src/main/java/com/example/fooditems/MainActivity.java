@@ -24,8 +24,8 @@ TextView textView;
         vada=findViewById(R.id.vada);
         dosa=findViewById(R.id.dosa);
         palav=findViewById(R.id.palav);
-        button=findViewById(R.id.button);
-        textView=findViewById(R.id.textView);
+        button=findViewById(R.id.submit_button);
+//        textView=findViewById(R.id.textView);
 
         int idliPrice=10;
         int vadaPrice=20;
@@ -36,33 +36,33 @@ TextView textView;
             @Override
             public void onClick(View v) {
                 StringBuilder stringBuilder=new StringBuilder();
-                int count=0;
+//                int count=0;
                 int totalPrice=0;
                 if(idli.isChecked()){
                     totalPrice+=idliPrice;
-                    count++;
+//                    count++;
                     stringBuilder.append("Idli,");
                 }
                 if(vada.isChecked()){
                     totalPrice+=vadaPrice;
-                    count++;
+//                    count++;
                     stringBuilder.append("vada,");
                 }
                 if(dosa.isChecked()){
                     totalPrice+=dosaPrice;
-                    count++;
+//                    count++;
                     stringBuilder.append("dosa,");
                 }
                 if(palav.isChecked()){
                     totalPrice+=palavPrive;
-                    count++;
+//                    count++;
                     stringBuilder.append("palav,");
                 }
 
-//                Toast.makeText(MainActivity.this, "Total amount "+totalPrice, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Total amount "+totalPrice, Toast.LENGTH_SHORT).show();
 //                Toast.makeText(MainActivity.this, "Total count "+count, Toast.LENGTH_SHORT).show();
 //                Toast.makeText(MainActivity.this, "Total items "+stringBuilder, Toast.LENGTH_SHORT).show();
-                textView.setText("Items:"+stringBuilder+" count "+count+" Amount:"+totalPrice);
+//                textView.setText("Items:"+stringBuilder+" count "+count+" Amount:"+totalPrice);
             }
         });
     }
