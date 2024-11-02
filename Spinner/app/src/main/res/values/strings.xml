@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">spinner</string>
+    <string-array name="branches">
+        <item>CCE</item>
+        <item>CSE</item>
+        <item>ISE</item>
+        <item>RM</item>
+        <item>ECE</item>
+    </string-array>
+</resources>
