@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pr2_Calendar</string>
+    <string-array name="Branches">
+        <item>CCE</item>
+        <item>ISE</item>
+        <item>CSE</item>
+    </string-array>
+</resources>
