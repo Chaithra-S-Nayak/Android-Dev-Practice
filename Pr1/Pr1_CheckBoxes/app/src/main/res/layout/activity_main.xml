@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/vada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="vada"
+        app:layout_constraintStart_toStartOf="@+id/idli"
+        app:layout_constraintTop_toBottomOf="@+id/idli" />
+
+    <CheckBox
+        android:id="@+id/dosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="dosa"
+        app:layout_constraintStart_toStartOf="@+id/palav"
+        app:layout_constraintTop_toBottomOf="@+id/palav" />
+
+    <CheckBox
+        android:id="@+id/idli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="193dp"
+        android:text="idli"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/palav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="palav"
+        app:layout_constraintStart_toStartOf="@+id/vada"
+        app:layout_constraintTop_toBottomOf="@+id/vada" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="48dp"
+        android:text="Submit"
+        app:layout_constraintStart_toStartOf="@+id/dosa"
+        app:layout_constraintTop_toBottomOf="@+id/dosa" />
+</androidx.constraintlayout.widget.ConstraintLayout>
