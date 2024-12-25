@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Pr1_JoinDate</string>
-    <string-array name="Branches">
-        <item>CCE</item>
-        <item>CSE</item>
-        <item>ISEE</item>
-    </string-array>
-</resources>
